@@ -16,7 +16,7 @@ dist:
 addons:
   apt:
     packages:
-      - enchant # for documentation
+      - mesa-utils # install glxinfo (needed for Android emulator)
 
 install:
   # Info about OS
